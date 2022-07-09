@@ -1,0 +1,11 @@
+<!-- -->
+
+<launch>
+	<node pkg="image_enhance" type="image_enhance_node" name="image_enhance_node" output="screen">
+		<param name ="image_topic" value="/pub_t"/>
+		<param name ="frame_rate" value="30"/>
+		<param name ="mode" value="2"/>
+	</node>
+
+</launch>
+
